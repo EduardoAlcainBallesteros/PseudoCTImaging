@@ -6,7 +6,7 @@ This algorithm has been implemented using: <br/>
  * Multicore OpenMP
  * GPU (CUDA) with three optimizations
     * GM Global Memroy
-    * GM2 Global memory with registers imrpovemnt 
+    * GM2 Global memory with registers improvement 
     * SM Shared memory 
            
 
