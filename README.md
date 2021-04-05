@@ -55,7 +55,9 @@ Some examples of execution are: <br/>
 
 This code implements the following paper "Real-time patch-based medical image modality propagation by GPU computing" https://link.springer.com/article/10.1007/s11554-016-0568-0 <br/>
 
-If you use this software for research purposes, CITE the corresponding of the following papers in any resulting publication: <br/>
+If you use this software for research purposes, please CITE the corresponding of the following papers in any resulting publication: <br/>
 
-1. Alcaín, E., Torrado-Carvajal, A., Montemayor, A.S. et al. Real-time patch-based medical image modality propagation by GPU computing. J Real-Time Image Proc 13, 193–204 (2017). https://doi.org/10.1007/s11554-016-0568-0 [2] Angel Torrado-Carvajal, Joaquin L. Herraiz, Eduardo Alcain, Antonio S. Montemayor, Lina Garcia-Cañamaque, Juan A. Hernandez-Tamames, Yves Rozenholc and Norberto Malpica Journal of Nuclear Medicine January 2016, 57 (1) 136-143; DOI: https://doi.org/10.2967/jnumed.115.156299 <br/>
-2. Angel Torrado-Carvajal, Joaquin L Herraiz, Eduardo Alcain, Antonio S Mon-temayor, Lina Garcia-Cañamaque, Juan A Hernandez-Tamames, Yves Rozen-holc, and Norberto Malpica. “Fast Patch-Based Pseudo-CT Synthesis fromT1-Weighted MR Images for PET/MR Attenuation Correction in Brain Stud-ies”. In:Journal of nuclear medicine : official publication, Society of Nuclear Medicine57.1 (Jan. 2016), pp. 136–143.ISSN: 0161-5505.DOI:10.2967/jnumed.115.156299.
+[1] Alcaín, E., Torrado-Carvajal, A., Montemayor, A.S. et al. Real-time patch-based medical image modality propagation by GPU computing. J Real-Time Image Proc 13, 193–204 (2017). https://doi.org/10.1007/s11554-016-0568-0 <br/>
+[2] Angel Torrado-Carvajal, Joaquin L. Herraiz, Eduardo Alcain, Antonio S. Montemayor, Lina Garcia-Cañamaque, Juan A. Hernandez-Tamames, Yves Rozenholc and Norberto Malpica
+Journal of Nuclear Medicine January 2016, 57 (1) 136-143; DOI: https://doi.org/10.2967/jnumed.115.156299 <br/>
+
