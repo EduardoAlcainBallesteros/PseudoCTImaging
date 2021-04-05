@@ -1,5 +1,5 @@
 # PseudoCTImaging
-pseudo-CT estimation based on multi-atlas with patches on mutlicore and manycore platforms. CT acquisition modality provides the electron densities necessary to obtain an attenuation map for PET (see [2]). The synthesis of a pseudo-CT image from MRI images is a natural solution to correct PET when PET/MR multimodality is considered. The basic idea is as follows: 1) generate a pseudo-CT given an input MRI image, 2) calculate the attenuation maps from the pseudo-CT volume, and  3) apply the attenuation map to correct the PET image. We are going to focus on the first step producing the pseudo-CT image: synthesis. <br/>
+pseudo-CT estimation based on multi-atlas with patches on mutlicore and manycore platforms (see [1,2]). CT acquisition modality provides the electron densities necessary to obtain an attenuation map for PET. The synthesis of a pseudo-CT image from MRI images is a natural solution to correct PET when PET/MR multimodality is considered. The basic idea is as follows: 1) generate a pseudo-CT given an input MRI image, 2) calculate the attenuation maps from the pseudo-CT volume, and  3) apply the attenuation map to correct the PET image. We are going to focus on the first step producing the pseudo-CT image: synthesis. <br/>
 This algorithm has been implemented using: <br/>
 
  * Single core intel icc
