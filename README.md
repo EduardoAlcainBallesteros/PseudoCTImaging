@@ -29,7 +29,8 @@ and the speedup among them
 
 
 
-The code has been implemented in Visual Studio 2015 Community with Intel compiler 19.0 and CUDA 9.0. You can compile the code in linux with the following commands <br/>.
+The code has been implemented in Visual Studio 2015 Community with Intel compiler 19.0 and CUDA 9.0. You can compile the code in linux with the following commands. <br/>
+nvcc kernelPatchBasedCT.cu -o kernelPatchBasedCT -gencode=arch=compute_30,code=\"sm_30,compute_30\"  --machine 64 -I /usr/local/cuda-10.0/samples/common/inc/ --ptxas-options=-v <br/>
 CPU Parameters
 1. Data.mat Anatomy atlas I, \mathcal{A} =\{(\mathcal{I}^{i},L^{i})\}^n_{i=1}. Atlas dimension is inferred from the data
 2. Name for the mat file result
@@ -51,7 +52,7 @@ CUDA
 Some examples of execution are: <br/>
 
 * **CPU** PatchBasedPseudoCT.exe data\Subject_08_AtlasSize_01.mat Subject_08_AtlasSize_01_7Nh_MC_TH12 0 7 12 2.5 1
-* **CUDA** PatchBasedPseudoCT.exe data\Subject_08_AtlasSize_01.mat Subject_08_AtlasSize_01_7Nh_MC_TH12 2 7 2.5 1
+* **CUDA** PatchBasedPseudoCT.exe data\Subject_08_AtlasSize_01.mat Subject_08_AtlasSize_01_Op2_Rd_7Nh 2 7 2.5 1
 
 This code implements the following paper "Real-time patch-based medical image modality propagation by GPU computing" https://link.springer.com/article/10.1007/s11554-016-0568-0 <br/>
 
