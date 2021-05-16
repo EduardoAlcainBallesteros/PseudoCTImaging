@@ -15,7 +15,7 @@ Matlab functions read the data for the input MRI, the anatomy atlas and write th
 Figure below illustrates schematically the workflow of our proposal. The input parameters are an input image $I$ representing the modality from we want to do the synthesis from, an anatomy atlas $\mathcal{A}$ which contains a set of image pairs of two different modalities: $\mathcal{A} =\{(\mathcal{I}^{i},L^{i})\}^n_{i=1}$. In our case, $\mathcal{I}^{i}$ are MRI images and $L^i$ CT images labels and $\mathcal{N}$ is the specific neighbourhood. We assume that $\mathcal{I}^{i}$ and $L^{i}$ are spatially aligned. We compare the similarity between the input image and the MRI images in the atlas within neighbourhood and combine these similarities to produce the segmentation output ($\hat{L}$) through the labels in the anatomy atlas. <br/>
 <br/>
 
-![](imgs/Workflow.png)
+![](imgs/Workflow.PNG)
 
 We also present the experiments performed to quantitatively measure the GPU performance compared to a CPU single and multicore solution. We show qualitative and quantitative results that reinforce the idea of our proposal. <br/>
 ![](imgs/Correlation.png)
